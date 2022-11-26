@@ -5,9 +5,12 @@
   "name": "the-cat-api",
   "version": "1.0.0",
   "main": "breedFetcher.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
   "repository": {
     "type": "git",
